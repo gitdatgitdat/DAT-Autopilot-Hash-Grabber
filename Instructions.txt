@@ -1,0 +1,15 @@
+Insert into laptop and power on
+Once at the Windows Setup screen, press Shift+F10
+Command Prompt should now appear
+Enter powershell
+It should now have switched from cmd to ps1
+
+Scripts are disabled by default. Run this to get around it:
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+
+Navigate to the thumb drive - cd D:\
+Run the script - .\Get-AutopilotInfo.ps1
+The info should appear as a spreadsheet called AutoPilotInfo
+
+After running, revert the execution restriction on scripts:
+Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope Process
