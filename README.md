@@ -1,12 +1,10 @@
 ---
-
 ## DAT-Autopilot-Hash-Grabber
 
 This toolkit is designed to quickly collect Windows Autopilot registration (hardware hash) information from new or freshly imaged devices while at the Windows OOBE (Out-of-Box Experience) screen. 
 It wraps the official Microsoft `Get-WindowsAutoPilotInfo.ps1` script with a simpler wrapper for field use.
 
 ---
-
 ## Usage Instructions
 
 1. Boot the target device to the Windows Setup (OOBE) screen.
@@ -26,7 +24,6 @@ cd D:\
 Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope Process
 
 ---
-
 ## Files
 
 Get-AutopilotInfo.ps1
